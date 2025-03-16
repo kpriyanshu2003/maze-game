@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze Solver Game</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Maze Solver Game</h1>
+
+    <input type="number" id="mazeDim" placeholder="Dimension" value="10" />
+    <button onclick="generateMaze()">Generate Maze</button>
+    <button onclick="startSolving()">Solve Maze</button>
+
+    <div id="status"></div>
+    <div id="maze"></div>
+  </body>
+</html>
